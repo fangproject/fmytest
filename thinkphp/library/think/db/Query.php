@@ -697,7 +697,7 @@ class Query
      */
     protected function getJoinTable($join, &$alias = null)
     {
-        // 传入的表名为数组
+        //  传入的表名为数组
         if (is_array($join)) {
             list($table, $alias) = [key($join), current($join)];
         } else {
